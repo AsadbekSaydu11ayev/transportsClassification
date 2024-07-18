@@ -1,7 +1,7 @@
 from fastai.vision.all import *
 import streamlit as st
 import pathlib
-import patform
+import platform
 plt  = platform.system()
 if plt == "Linux":pathlib.WindowsPath = pathlib.PosixPath
 # grafiklarni chiqarish uchun
